@@ -1,0 +1,25 @@
+.titleContainer {
+    width: 400px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ovel {
+    height: 45px;
+    width: 45px;
+    background: #F9F9F9;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid #00AA82;
+    font-weight: 800;
+}
+
+.title {
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-left: 8px;
+}
