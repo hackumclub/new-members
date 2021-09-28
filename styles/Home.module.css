@@ -68,5 +68,16 @@
     flex-direction: column;
   }
 }
+ 
+.h1 {
+  color: #00AA82;
+  font-size: 25px;
+}
 
-
+.p {
+  color: #818181;
+  line-height: 18.96px;
+  font-weight: 400;
+  width: 606px;
+  text-align: center;
+}

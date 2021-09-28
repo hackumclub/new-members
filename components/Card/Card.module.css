@@ -1,6 +1,16 @@
 .box {
     background-color: #F9F9F9;
     width: 742px;
-    padding: 4px;
+    padding-left: 8px;
     border-radius: 10px;
+}
+
+.byt {
+    background-color: #2C73E8;
+    width: 722px;
+    height: 56px;
+    border: 0;
+    border-radius: 10px;
+    font-weight: 800;
+    color: #FFFFFF;
 }

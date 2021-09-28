@@ -1,10 +1,22 @@
 import styles from "./Card.module.css";
 
-export default function Title({ title, number }) {
+export default function Title({ title, hasButton}) {
   return (
     <div className={styles.box}>
-      <p> Бид өөрсдийн мэдлэг чадвараа ашиглан хүмүүсийн амьдрал, мэдээллийн хүртээмжийг нэмэгдүүлж, нийгмийн сайн сайханд хувь нэмрээ оруулах шинэ, шилдэг санаачлага гарган хэрэгжүүлдэг клуб юм. Бид өөрчлөлтийг хүлээдэг биш өөрсдөө манлайлж хийдэг хамт олон болж мэдээллийн ил, тод хүртээмжтэй байдлыг өндөр түвшинд хүргэхийг эрмэлзэнэ</p>
+      <p>{title}</p>
+      {
+        hasButton==true ? <TheButton></TheButton> : null
+      }
     </div>
-
   );
+}
+
+const TheButton = ({Title}) => {
+  return(
+    <div> 
+      <button className={styles.byt}>
+        УНШИХ
+      </button>
+    </div>
+  )
 }
