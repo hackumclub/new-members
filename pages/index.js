@@ -2,6 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
 import Title from "../components/Title/Title";
+import Card from "../components/Card/Card";
 
 const TitleList = [
   {
@@ -33,6 +34,7 @@ export default function Home() {
           {TitleList.map((item, index) =>
             <Title key={index} title={item.title} number={index + 1} />
           )}
+          <Card></Card>
         </div>
       </main>
     </div>
