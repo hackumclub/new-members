@@ -3,6 +3,10 @@ import styles from "../styles/Home.module.css";
 import Title from "../components/Title/Title";
 import Card from "../components/Card/Card";
 import Button from "../components/Button/Button";
+import Logo from '../public/logo.png';
+import Image from 'next/image'
+import Avatar1 from '../public/profile1.png';
+import Avatar from '../public/profile.png';
 
 const Items = [
   {
@@ -45,14 +49,19 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>HACKUM Тавтай морил</title>
+        <title>Тавтай морил - HACKUM клуб</title>
         <meta
           name="description"
           content="HACKUM клубийн шинэ элсэгчдэд зориулсан вэб"
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <nav className={styles.header}>HACKUM LOGO</nav>
+      <nav className={styles.header}>
+        <Image className={styles.header} src={Logo} alt="Hackum" />
+        <p className={styles.hackum}>
+          HACKUM
+        </p>
+      </nav>
       <div className={styles.container}>
         <main className={styles.main}>
           <h1 className={styles.h1}>ХАКУМ КЛУБД ТАВТАЙ МОРИЛ</h1>
@@ -71,7 +80,9 @@ export default function Home() {
             ))}
             <Title title="Дотоод журам унших" number={3} />
             <Card description="Клубийнхээ дотоод журамтай заавал сайтар танилцаарай 😄">
-              <Button href="#" content="Унших" />
+              <a href={'https://www.youtube.com/'}>
+                <button className={styles.button} >УНШИХ</button>
+              </a>
             </Card>
 
             <Title title="Клубийн бүлгэмүүдэд нэгдэх" number={4} />
@@ -89,8 +100,18 @@ export default function Home() {
                 </div>
               ))}
             </Card>
-
-            <Card>Вэб хөгжүүлсэн</Card>
+            <div className={styles.plus}>Эдгээр үйлдлүүдийг амжилттай хийж дууссан танд баяр хүргэе! Ингээд та HACKUM клубийн нэг хэсэг боллоо. Цаашдын үйл ажиллагааг таны орсон шинэ бүлгэмүүд дээр мэдэгдээд явах тул хоцрохоос болгоомжлоорой. HACKUM | INSPIRE WITH IMAGINATION - Хамтдаа хичээцгээе 💚</div>
+            <Card className={styles.box}>
+              <div>Вэб хөгжүүлсэн:</div>
+              <div className={styles.row}>
+                <div className={styles.max}>
+                  <Image src={Avatar1} alt="Ariunbold" />
+                </div>
+                <p>Ариунболд /Core гишүүн/</p>
+                <Image className={styles.max} src={Avatar} alt="ulziibox" />
+                <p>Б. Бат-Өлзий</p>
+              </div>
+            </Card>
           </div>
         </main>
       </div>
