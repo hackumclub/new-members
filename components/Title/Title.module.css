@@ -1,25 +1,26 @@
 .titleContainer {
-    width: 400px;
-    padding: 5px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  width: 100%;
+  padding: 5px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 8px;
 }
 
 .ovel {
-    height: 45px;
-    width: 45px;
-    background: #F9F9F9;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 3px solid #00AA82;
-    font-weight: 800;
+  height: 45px;
+  width: 45px;
+  background: #f9f9f9;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid #00aa82;
+  font-weight: 800;
 }
 
 .title {
-    text-transform: uppercase;
-    font-weight: 800;
-    margin-left: 8px;
+  text-transform: uppercase;
+  font-weight: 800;
+  margin-left: 8px;
 }

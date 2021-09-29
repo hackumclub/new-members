@@ -1,0 +1,20 @@
+.default {
+  background-color: #2c73e8;
+  width: 100%;
+  border: 0;
+  padding: 18px;
+  text-transform: uppercase;
+  border-radius: 14px;
+  font-weight: 800;
+  color: #ffffff;
+  cursor: pointer;
+  transition: ease-in 100ms;
+}
+
+.default:hover {
+  opacity: 0.8;
+}
+
+.discord {
+  background-color: #404eed;
+}

@@ -1,16 +1,21 @@
 .box {
-    background-color: #F9F9F9;
-    width: 742px;
-    padding-left: 8px;
-    border-radius: 10px;
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  line-height: 1.4;
+  margin-bottom: 24px;
 }
 
 .byt {
-    background-color: #2C73E8;
-    width: 722px;
-    height: 56px;
-    border: 0;
-    border-radius: 10px;
-    font-weight: 800;
-    color: #FFFFFF;
+  background-color: #2c73e8;
+  width: 722px;
+  height: 56px;
+  border: 0;
+  border-radius: 10px;
+  font-weight: 800;
+  color: #ffffff;
+}
+
+.description {
+  margin: 0 0 8px 0;
 }
