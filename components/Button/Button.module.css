@@ -14,6 +14,7 @@
   transition: ease-in 100ms;
   align-items: center;
   grid-gap: 5px;
+  height: 55px;
 }
 
 .default:hover {

@@ -57,6 +57,9 @@ export default function Home() {
       </Head>
       <nav className={styles.header}>
         <Image className={styles.header} src={Logo} />
+        <p className={styles.hackum}>
+          HACKUM
+        </p>
       </nav>
       <div className={styles.container}>
         <main className={styles.main}>
@@ -100,9 +103,11 @@ export default function Home() {
             <Card className={styles.box}>
               <div>Вэб хөгжүүлсэн:</div>
               <div className={styles.row}>
-                <Image src={Avatar1} height={"37px"} width={"37px"} />
+                <div className={styles.max}>
+                  <Image src={Avatar1} />
+                </div>
                 <p>Ариунболд /Core гишүүн/</p>
-                <Image src={Avatar} height={"37px"} width={"37px"} />
+                <Image className={styles.max} src={Avatar} />
                 <p>Б. Бат-Өлзий</p>
               </div>
             </Card>
