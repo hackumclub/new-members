@@ -13,8 +13,9 @@
   cursor: pointer;
   transition: ease-in 100ms;
   align-items: center;
-  grid-gap: 5px;
+  grid-gap: 10px;
   height: 55px;
+  font-family: Rubik;
 }
 
 .default:hover {
