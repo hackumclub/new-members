@@ -7,12 +7,12 @@ export default function Button({ href, content, type }) {
     <a href={href} target="_blank" rel="noreferrer">
       {type === "discord" ? (
         <button className={`${styles.default} ${styles.discord}`}>
-          <Image src={Discord} height={30} width={30} />
+          <Image src={Discord} height={30} width={30} alt="hackum discord" />
           {content}
         </button>
       ) : (
         <button className={styles.default}>
-          <Image src={Facebook} />
+          <Image src={Facebook} alt="hackum facebook" />
           {content}
         </button>
       )}
