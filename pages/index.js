@@ -7,6 +7,7 @@ import Logo from '../public/logo.png';
 import Image from 'next/image'
 import Avatar1 from '../public/profile1.png';
 import Avatar from '../public/profile.png';
+
 const Items = [
   {
     title: "Клубийн эрхэм зорилго",
@@ -48,7 +49,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>HACKUM Тавтай морил</title>
+        <title>Тавтай морил - HACKUM клуб</title>
         <meta
           name="description"
           content="HACKUM клубийн шинэ элсэгчдэд зориулсан вэб"
@@ -56,7 +57,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <nav className={styles.header}>
-        <Image className={styles.header} src={Logo} />
+        <Image className={styles.header} src={Logo} alt="Hackum" />
         <p className={styles.hackum}>
           HACKUM
         </p>
@@ -99,15 +100,15 @@ export default function Home() {
                 </div>
               ))}
             </Card>
-            <div className={styles.plus}>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</div>
+            <div className={styles.plus}>Эдгээр үйлдлүүдийг амжилттай хийж дууссан танд баяр хүргэе! Ингээд та HACKUM клубийн нэг хэсэг боллоо. Цаашдын үйл ажиллагааг таны орсон шинэ бүлгэмүүд дээр мэдэгдээд явах тул хоцрохоос болгоомжлоорой. HACKUM | INSPIRE WITH IMAGINATION - Хамтдаа хичээцгээе 💚</div>
             <Card className={styles.box}>
               <div>Вэб хөгжүүлсэн:</div>
               <div className={styles.row}>
                 <div className={styles.max}>
-                  <Image src={Avatar1} />
+                  <Image src={Avatar1} alt="Ariunbold" />
                 </div>
                 <p>Ариунболд /Core гишүүн/</p>
-                <Image className={styles.max} src={Avatar} />
+                <Image className={styles.max} src={Avatar} alt="ulziibox" />
                 <p>Б. Бат-Өлзий</p>
               </div>
             </Card>

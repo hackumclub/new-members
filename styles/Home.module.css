@@ -16,7 +16,7 @@
 }
 
 .hackum {
-  color: #00AA82;
+  color: #00aa82;
   font-family: Rubik;
   font-style: normal;
   font-weight: bold;
@@ -34,7 +34,7 @@
   flex-direction: column;
   justify-content: start;
   align-items: center;
-  padding-top: 80px;
+  padding: 80px 10px 10px 10px;
 }
 
 .h1 {
@@ -62,13 +62,13 @@
 }
 
 .plus {
-  background-color: #EBF8F5;
+  background-color: #ebf8f5;
   padding: 20px;
   border-radius: 10px;
   border-style: solid;
-  border-color: #00AA82;
+  border-color: #00aa82;
   border-width: 1px;
-  line-height: 1.410;
+  line-height: 1.41;
   margin-bottom: 24px;
 }
 
@@ -77,7 +77,6 @@
   grid-gap: 13px;
   flex-direction: row;
   align-items: center;
-  
 }
 
 .button {
