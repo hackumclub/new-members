@@ -3,7 +3,10 @@ import styles from "../styles/Home.module.css";
 import Title from "../components/Title/Title";
 import Card from "../components/Card/Card";
 import Button from "../components/Button/Button";
-
+import Logo from '../public/logo.png';
+import Image from 'next/image'
+import Avatar1 from '../public/profile1.png';
+import Avatar from '../public/profile.png';
 const Items = [
   {
     title: "Клубийн эрхэм зорилго",
@@ -52,7 +55,9 @@ export default function Home() {
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <nav className={styles.header}>HACKUM LOGO</nav>
+      <nav className={styles.header}>
+        <Image className={styles.header} src={Logo} />
+      </nav>
       <div className={styles.container}>
         <main className={styles.main}>
           <h1 className={styles.h1}>ХАКУМ КЛУБД ТАВТАЙ МОРИЛ</h1>
@@ -71,7 +76,9 @@ export default function Home() {
             ))}
             <Title title="Дотоод журам унших" number={3} />
             <Card description="Клубийнхээ дотоод журамтай заавал сайтар танилцаарай 😄">
-              <Button href="#" content="Унших" />
+              <a href={'https://www.youtube.com/'}>
+                <button className={styles.button} >УНШИХ</button>
+              </a>
             </Card>
 
             <Title title="Клубийн бүлгэмүүдэд нэгдэх" number={4} />
@@ -89,8 +96,16 @@ export default function Home() {
                 </div>
               ))}
             </Card>
-
-            <Card>Вэб хөгжүүлсэн</Card>
+            <div className={styles.plus}>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</div>
+            <Card className={styles.box}>
+              <div>Вэб хөгжүүлсэн:</div>
+              <div className={styles.row}>
+                <Image src={Avatar1} height={"37px"} width={"37px"} />
+                <p>Ариунболд /Core гишүүн/</p>
+                <Image src={Avatar} height={"37px"} width={"37px"} />
+                <p>Б. Бат-Өлзий</p>
+              </div>
+            </Card>
           </div>
         </main>
       </div>

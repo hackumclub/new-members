@@ -1,4 +1,7 @@
 .default {
+  display: flex;
+  position: relative;
+  justify-content: center;
   background-color: #2c73e8;
   width: 100%;
   border: 0;
@@ -9,6 +12,8 @@
   color: #ffffff;
   cursor: pointer;
   transition: ease-in 100ms;
+  align-items: center;
+  grid-gap: 5px;
 }
 
 .default:hover {

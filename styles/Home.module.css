@@ -47,3 +47,37 @@
 .box {
   margin-top: 16px;
 }
+
+.plus {
+  background-color: #EBF8F5;
+  padding: 20px;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #00AA82;
+  border-width: 1px;
+  line-height: 1.410;
+  margin-bottom: 24px;
+}
+
+.row {
+  display: flex;
+  grid-gap: 20px;
+  flex-direction: row;
+}
+
+.button {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  background-color: #2c73e8;
+  width: 100%;
+  border: 0;
+  padding: 18px;
+  text-transform: uppercase;
+  border-radius: 14px;
+  font-weight: 800;
+  color: #ffffff;
+  cursor: pointer;
+  transition: ease-in 100ms;
+  align-items: center;
+}
