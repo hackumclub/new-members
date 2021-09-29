@@ -1,6 +1,7 @@
 .container {
   display: flex;
   justify-content: center;
+  font-family: "Rubik", sans-serif;
 }
 .header {
   height: 80px;
