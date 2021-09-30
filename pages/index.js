@@ -25,7 +25,7 @@ const Buttons = [
   {
     description:
       "Discord серверт нэгдэх - Бид онлайнаар болдог бүх үйл ажиллагаа, дотоод чатаа Discord сервер дээр хийдэг ба та энэ хэсэгт бусад гишүүдтэйгээ чөлөөтэй харилцах боломжтой.",
-    href: "https://discord.gg/dbHzk4Dfbp",
+    href: "https://discord.gg/mWbAYkXv",
     title: "Join discord server",
     type: "discord",
   },
