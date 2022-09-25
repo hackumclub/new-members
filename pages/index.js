@@ -32,7 +32,7 @@ const Buttons = [
   {
     description:
       "Энэ намрын шинээр элсэгчдийн фэйсбүүк бүлгэмд нэгдэх - Энэ бүлгэмд зөвхөн шинэ элсэгчид байх ба шинэ элсэгчтэй холбоотой бүхий л мэдээлэл уг бүлгэмд тавигдана.",
-    href: "https://www.facebook.com/groups/984184432148712",
+    href: "https://www.facebook.com/groups/612668670591234/",
     title: "Бүлгэмд нэгдэх",
     type: "facebook",
   },
@@ -80,7 +80,7 @@ export default function Home() {
             ))}
             <Title title="Дотоод журам унших" number={3} />
             <Card description="Клубийнхээ дотоод журамтай заавал сайтар танилцаарай 😄">
-              <a href="https://docs.google.com/document/d/1Ikkz_g62SezEhCfOAFEhsozkqbWlyYXCpJk_B9fKIkk/edit?usp=sharing" target="_blank" rel="noreferrer">
+              <a href="https://drive.google.com/file/d/1iYQHCvPeTP8mxzREwWyXxFZy0Ypw4nLL/view?usp=sharing" target="_blank" rel="noreferrer">
                 <button className={styles.button} >УНШИХ</button>
               </a>
             </Card>
